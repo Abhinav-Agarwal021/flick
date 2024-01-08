@@ -11,7 +11,7 @@ export const useLoading = () => {
         (async () => {
             try {
                 const { data } = await axios.get(
-                    `http://localhost:8080/api/refresh`,
+                    `https://flick-5r4z.onrender.com/api/refresh`,
                     {
                         withCredentials: true,
                     }
