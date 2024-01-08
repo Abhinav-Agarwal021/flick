@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const api = axios.create({
-    baseURL: "https://flick-5r4z.onrender.com",
+    baseURL: "https://flick-key3.onrender.com",
     withCredentials: true,
     headers: {
         'Content-type': 'application/json',
@@ -141,7 +141,7 @@ api.interceptors.response.use(
             originalRequest.isRetry = true;
             try {
                 await axios.get(
-                    "https://flick-5r4z.onrender.com/api/refresh",
+                    "https://flick-key3.onrender.com/api/refresh",
                     {
                         withCredentials: true,
                     }

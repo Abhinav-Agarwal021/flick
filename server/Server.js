@@ -13,7 +13,7 @@ dbConnect()
 app.use(cookieParser())
 const corsOption = {
     credentials: true,
-    origin: 'https://flick-5r4z.onrender.com',
+    origin: 'https://flick-key3.onrender.com',
 };
 
 app.use(cors(corsOption));
@@ -45,7 +45,7 @@ app.listen(PORT, () => {
 
 const io = require("socket.io")(8900, {
     cors: {
-        origin: "https://flick-5r4z.onrender.com",
+        origin: "https://flick-key3.onrender.com",
     },
 });
 
