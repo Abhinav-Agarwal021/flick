@@ -1,6 +1,6 @@
 const conversationDto = require('../dtos/conversationDto');
-const conversation = require('../models/ConversationModel')
-const Message = require('../models/MessageModel')
+const conversation = require('../Models/ConversationModel')
+const Message = require('../Models/MessageModel')
 
 class ConversationController {
 

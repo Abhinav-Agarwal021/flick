@@ -1,8 +1,8 @@
 const CategoryDto = require("../dtos/categoryDto");
 const ChannelDto = require("../dtos/channelDto");
 const rolesDto = require("../dtos/rolesDto");
-const RoomModel = require("../models/RoomModel");
-const UserRolesModel = require("../models/UserRolesModel");
+const RoomModel = require("../Models/RoomModel");
+const UserRolesModel = require("../Models/UserRolesModel");
 const GrpService = require("../Services/GrpService");
 const RoomService = require("../Services/RoomService");
 

@@ -1,8 +1,8 @@
-const CategoryModel = require("../models/CategoryModel");
-const ChannelModel = require("../models/ChannelModel");
-const InviteCodesModel = require("../models/InviteCodesModel");
-const RoomModel = require("../models/RoomModel");
-const UserRolesModel = require("../models/UserRolesModel");
+const CategoryModel = require("../Models/CategoryModel");
+const ChannelModel = require("../Models/ChannelModel");
+const InviteCodesModel = require("../Models/InviteCodesModel");
+const RoomModel = require("../Models/RoomModel");
+const UserRolesModel = require("../Models/UserRolesModel");
 
 class RoomService {
 

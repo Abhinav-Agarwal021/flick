@@ -1,10 +1,10 @@
-const CategoryModel = require("../models/CategoryModel");
-const UserRolesModel = require("../models/UserRolesModel");
-const ChannelModel = require("../models/ChannelModel")
+const CategoryModel = require("../Models/CategoryModel");
+const UserRolesModel = require("../Models/UserRolesModel");
+const ChannelModel = require("../Models/ChannelModel")
 
 const crypto = require('crypto');
-const InviteCodesModel = require("../models/InviteCodesModel");
-const RoomModel = require("../models/RoomModel");
+const InviteCodesModel = require("../Models/InviteCodesModel");
+const RoomModel = require("../Models/RoomModel");
 
 class GrpService {
     async CreateCat(data) {
