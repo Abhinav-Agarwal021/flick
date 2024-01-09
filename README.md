@@ -32,39 +32,24 @@ To run Virtual Meet on your local machine, follow these steps:
 
    ```
    cd flick
-   ```
-   Terminal 1
-   ```
-   npm install
-   ```
-   Terminal 2
-   ```
-   cd client
-   npm install   
+   npm run build
    ```
 
 4. Change the target API link to the port that you are going to select for the server.
 
-3. Start the frontend
+5. Setting up environment variables for the server
 
-   Terminal 2
+6. Start the application.
+
+   Terminal 1
    ```
    npm start
    ```
 
-4. Setting up environment variables for the server
-
-5. Start the server.
-
-   Terminal 1
-   ```
-   npm run start
-   ```
-
-4. Open the application in your web browser.
+7. Open the application in your web browser.
 
    ```
-   http://localhost:3000
+   http://localhost:{port}
    ```
 
 ## Usage
