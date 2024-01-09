@@ -40,13 +40,12 @@ To run Virtual Meet on your local machine, follow these steps:
 5. Setting up environment variables for the server
 
 6. Start the application.
-
-   Terminal 1
+   
    ```
    npm start
    ```
 
-7. Open the application in your web browser.
+8. Open the application in your web browser.
 
    ```
    http://localhost:{port}
